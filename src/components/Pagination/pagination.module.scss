@@ -1,0 +1,36 @@
+.pagination{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+
+    li{
+        display: inline-block;
+
+        a{
+        border: 1px solid black;
+        display: inline-block;
+        text-align: center;
+        width: 42px;
+        height: 42px;
+        line-height: 42px;
+        margin-right: 10px;
+        cursor: pointer;
+        
+        &:hover{
+            background-color: black;
+            color: white;
+        }
+        }
+    }
+
+    :global{
+        .selected{
+            a{
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+}

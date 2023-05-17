@@ -1,0 +1,47 @@
+.container {
+    width: 1000px;
+    padding-left: 55px;
+    margin-bottom: 100px;
+    padding-top: 40px;
+    
+    h2 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        letter-spacing: 0.02em;
+        margin-bottom: 80px;
+    }
+
+    .points {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .point {
+            width: 300px;
+
+            h3 {
+                font-family: "Raleway";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 140%;
+                letter-spacing: 0.02em;
+            }
+            p {
+                font-family: "Raleway";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 140%;
+                letter-spacing: 0.02em;
+            }
+        }
+
+        .image {
+            height: 50px;
+            width: 50px;
+        }
+    }
+}

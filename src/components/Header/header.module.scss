@@ -1,0 +1,89 @@
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Raleway;
+    height: 100px;
+    padding: 10px;
+    position: relative;
+    z-index: 10;
+    overflow-y: hidden;
+  
+    .header__container{
+      width: 1110px;
+      height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      position: fixed;
+      overflow: hidden;
+      z-index: 20;
+
+      img.dress{
+        height: 25px;
+        padding-right: 13%;
+      }
+
+      .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h3{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase; 
+        }
+      }
+      nav ul{
+        display: flex;
+        align-items:end;
+        justify-content: space-around;
+
+        li{
+            font-size: 13px;
+            line-height: 140%;
+            letter-spacing: 0.02em;
+            margin-right: 40px;
+            transition: all 0.3s;
+            &.selected{
+                font-weight: 700;
+                color: #6E9C9F;
+            }
+            &:hover{
+                font-weight: 700;
+                color: #6E9C9F;
+            }
+        }
+        .selected{
+            font-weight: 700;
+            color: #6E9C9F;
+        }
+      }
+
+      .contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: -70px;
+        .phone{
+           
+        } 
+        a{
+            font-size: 15px;
+            line-height: 140%;
+            letter-spacing: 0.02em;
+        }
+      }
+
+      .cart{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+  }

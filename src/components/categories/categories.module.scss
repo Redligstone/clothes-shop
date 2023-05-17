@@ -1,0 +1,28 @@
+.categories{
+    margin-top: 10px;
+   
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    li{
+        padding: 17px 55px;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        border: 1px solid black;
+        transition: all 0.3s ease-in;
+    }
+    li.selected{
+        color: white;
+        background-color: black;
+    }
+    li:hover{
+        color: white;
+        background-color: black;
+    }
+}

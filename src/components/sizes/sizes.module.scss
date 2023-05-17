@@ -1,0 +1,16 @@
+.sizes{
+    display: flex;
+    gap: 10px;
+    span{
+        padding: 6px 10px;
+        border: solid 2px black;
+        &.selected{
+            background-color: black;
+            color: white;
+        }
+        &:hover{
+             background-color: black;
+            color: white;
+        }
+    }
+}
