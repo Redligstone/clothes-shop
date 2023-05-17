@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.1475583e.css",
+    "main.js": "/react-gh-pages/static/js/main.dd05bc62.js",
+    "static/media/dream-team-2.jpg": "/react-gh-pages/static/media/dream-team-2.a861a73ea157c0097071.jpg",
+    "static/media/dream_team.png": "/react-gh-pages/static/media/dream_team.4a32ee765de34baae6d2.png",
+    "static/media/idea.png": "/react-gh-pages/static/media/idea.1337266dfa82c130b944.png",
+    "static/media/first__block-middle.png": "/react-gh-pages/static/media/first__block-middle.9f84b82d36616a53f0e8.png",
+    "static/media/dream_team3.jpg": "/react-gh-pages/static/media/dream_team3.404f3d02d5f8a5519bfe.jpg",
+    "static/media/map.jpg": "/react-gh-pages/static/media/map.ece3c0229877a59b0300.jpg",
+    "static/media/magic.png": "/react-gh-pages/static/media/magic.7a62b21a00188eee656a.png",
+    "static/media/fist__Block-left.png": "/react-gh-pages/static/media/fist__Block-left.4a68195f73ff4e34a186.png",
+    "static/media/first__block-right.png": "/react-gh-pages/static/media/first__block-right.7464279f3002a00d2049.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.1475583e.css.map": "/react-gh-pages/static/css/main.1475583e.css.map",
+    "main.dd05bc62.js.map": "/react-gh-pages/static/js/main.dd05bc62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1475583e.css",
+    "static/js/main.dd05bc62.js"
+  ]
+}
