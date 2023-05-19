@@ -41,7 +41,6 @@ const OneItem: React.FC = () => {
         setProduct(data);
         setCurrentCategory(data.category);
         setLoaded(true)
-        console.log(data);
       } catch (error) {
         console.log(error);
       }
@@ -56,7 +55,6 @@ const OneItem: React.FC = () => {
           `https://6440292eb9e6d064be09816e.mockapi.io/shop?category=${product?.category}`
         );
         setInterestingProducts(data.filter((item) => item.id !== product.id));
-        console.log("interesting:", data);
       } catch (error) {
         console.log(error);
       }
@@ -75,7 +73,6 @@ const OneItem: React.FC = () => {
       count: 0,
     };
     dispatch(addProduct(cartProduct));
-    console.log(cartProduct);
   };
 
   if (!product) {

@@ -45,7 +45,6 @@ const Contacts: React.FC = () => {
     },
     validate,
     onSubmit: (values) => {
-      console.log(values);
       values.name = ''
       values.email = ''
       values.phone = ''

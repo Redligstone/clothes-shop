@@ -147,34 +147,16 @@
                         padding: 10px 10px;
                     }
                 }
-
-                // div{
-                //     display: flex;
-                //     align-items: center;
-                //     justify-content: space-between;
-                //     gap: 45px;
-                //     padding: 10px 15px;
-                //     span{
-                //         font-weight: 500;
-                //         font-size: 17px;
-                //         line-height: 140%;
-                //         letter-spacing: 0.02em;
-                //     }
-                //     &.total{
-                //         background-color: #F1EADC;
-                //         padding: 10px 15px;
-
-                //         span{
-                //             font-size: 20px;
-                //         }
-                //     }
-                // }
             }
 
             .payment {
                 display: flex;
                 flex-direction: column;
                 gap: 40px;
+                 .error{
+                    margin-top: -30px;
+                    color: rgb(236, 81, 81);
+                 }
 
                 h2 {
                     margin-bottom: 0px;

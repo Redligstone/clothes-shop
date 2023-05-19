@@ -27,7 +27,7 @@ const Header: React.FC = () => {
 
   const isMounted = useRef(false);
 
-  console.log(path);
+
 
   React.useEffect(() => {
     if (isMounted) {
@@ -75,7 +75,6 @@ const Header: React.FC = () => {
     },
     validate,
     onSubmit: (values) => {
-      console.log(values);
       values.name = "";
       values.email = "";
       values.phone = "";

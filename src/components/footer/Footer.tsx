@@ -57,7 +57,7 @@ const Footer:React.FC = () => {
                         <Link to='/shop' onClick={transitScroll} className={path === '/shop' ? `${s.list__header} ${s.selected}` : `${s.list__header} `}>Магазин</Link>
                             <ul>
                                 {
-                                categories.map((category,id) => <li><Link to='/shop' onClick={() => onclickTransit(id + 1)}>{category}</Link></li>)
+                                categories.map((category,id) => <li key={id}><Link to='/shop' onClick={() => onclickTransit(id + 1)}>{category}</Link></li>)
                                 }
                             </ul>
                     </li>

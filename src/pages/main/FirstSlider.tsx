@@ -10,9 +10,9 @@ import right from '../../assets/first__block-right.png'
 const ImageSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const slides = [
-    { title: "Новейшие поступления в этом сезоне", description: "Утонченные сочетания и бархатные оттенки - вот то, что вы искали в этом сезоне. Время исследовать." },
-    { title: "Новые поступления в следующем сезоне", description: "Утонченные сочетания и бархатные оттенки - вот то, что вы искали в этом сезоне.Время исскать" },
-    { title: "Старые поступления в прошлом сезоне", description: "Утонченные сочетания и бархатные оттенки - вот то, что вы искали в этом сезоне. Время покупать." },
+    { id:1, title: "Новейшие поступления в этом сезоне", description: "Утонченные сочетания и бархатные оттенки - вот то, что вы искали в этом сезоне. Время исследовать." },
+    { id:2, title: "Новые поступления в следующем сезоне", description: "Утонченные сочетания и бархатные оттенки - вот то, что вы искали в этом сезоне.Время исскать" },
+    { id:3, title: "Старые поступления в прошлом сезоне", description: "Утонченные сочетания и бархатные оттенки - вот то, что вы искали в этом сезоне. Время покупать." },
   ];
 
   const goToSlide = (slideIndex) => {
@@ -32,10 +32,9 @@ const ImageSlider = () => {
 
       <div className={s.pages__container}>
         {slides.map((slide, slideIndex) => (
-          <div className={s.page__container} onClick={() => goToSlide(slideIndex)}>
+          <div key={slide.id} className={s.page__container} onClick={() => goToSlide(slideIndex)}>
             <div
               className={currentIndex === slideIndex ? s.page__active : s.page}
-              key={slideIndex}
             >
             </div>
           </div>
