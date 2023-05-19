@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/clothes-shop/static/css/main.1475583e.css",
-    "main.js": "/clothes-shop/static/js/main.ae09e9d6.js",
+    "main.css": "/clothes-shop/static/css/main.e3ea6950.css",
+    "main.js": "/clothes-shop/static/js/main.2043402e.js",
     "static/media/dream-team-2.jpg": "/clothes-shop/static/media/dream-team-2.a861a73ea157c0097071.jpg",
     "static/media/dream_team.png": "/clothes-shop/static/media/dream_team.4a32ee765de34baae6d2.png",
     "static/media/idea.png": "/clothes-shop/static/media/idea.1337266dfa82c130b944.png",
@@ -12,11 +12,11 @@
     "static/media/fist__Block-left.png": "/clothes-shop/static/media/fist__Block-left.4a68195f73ff4e34a186.png",
     "static/media/first__block-right.png": "/clothes-shop/static/media/first__block-right.7464279f3002a00d2049.png",
     "index.html": "/clothes-shop/index.html",
-    "main.1475583e.css.map": "/clothes-shop/static/css/main.1475583e.css.map",
-    "main.ae09e9d6.js.map": "/clothes-shop/static/js/main.ae09e9d6.js.map"
+    "main.e3ea6950.css.map": "/clothes-shop/static/css/main.e3ea6950.css.map",
+    "main.2043402e.js.map": "/clothes-shop/static/js/main.2043402e.js.map"
   },
   "entrypoints": [
-    "static/css/main.1475583e.css",
-    "static/js/main.ae09e9d6.js"
+    "static/css/main.e3ea6950.css",
+    "static/js/main.2043402e.js"
   ]
 }
