@@ -161,8 +161,6 @@ const Contacts: React.FC = () => {
                 ? <div><button disabled className={s.sent}>Сообщение успешно отправлено</button></div>
                 : <div><button type="submit" className={s.submit}>Отправить</button></div>
                 }
-                {/* <div><button type="submit" className={s.submit}>Отправить</button></div>
-                <div><button className={s.sent}>Сообщение успешно отправлено</button></div> */}
             </div>
           </form>
         </section>

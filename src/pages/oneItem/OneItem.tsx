@@ -1,25 +1,20 @@
 import React, { useEffect, useState } from "react";
 import s from "./oneitem.module.scss";
 import ProductItem from "../../components/ProductItem/ProductItem";
-import { productsSelector } from "../../redux/slices/products__slice";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch} from "react-redux";
 import { useLocation, useParams } from "react-router-dom";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import Sizes from "../../components/sizes/Sizes";
 import Colors from "../../components/colors/Colors";
-import { type } from "os";
-import { types } from "util";
 import {
   CartItem,
   addProduct,
-  cartSelector,
 } from "../../redux/slices/cart_slice";
 import Preloader from '../../components/preloadcer/preloader'
 import { setCategoryId } from "../../redux/slices/categories_slice";
 
 const OneItem: React.FC = () => {
-  const { items } = useSelector(cartSelector);
   const { id } = useParams();
   const [product, setProduct] = useState<CartItem>();
   const [currentCategory, setCurrentCategory] = useState(0);
@@ -36,9 +31,10 @@ const OneItem: React.FC = () => {
     dispatch(setCategoryId(0))
   }
 
-  React.useEffect(() => {
+  useEffect(() => {
     async function fetchProduct() {
       try {
+        setLoaded(false)
         const { data } = await axios.get(
           "https://6440292eb9e6d064be09816e.mockapi.io/shop/" + id
         );

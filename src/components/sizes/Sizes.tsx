@@ -5,10 +5,7 @@ import {cartSelector } from "../../redux/slices/cart_slice";
 
 
 const Sizes = ({currentSize,setCurrentSize}) => {
-const dispatch = useDispatch()
-const size = useSelector(cartSelector)
-// const [currentSize,setCurrentSize] = React.useState(0) 
-console.log(size.size)
+
   const sizes = ["S", "M", "L", "XL", "XXL"];
  
   const onClickFunc = (index) => {

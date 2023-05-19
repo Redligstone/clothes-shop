@@ -59,11 +59,6 @@ const Footer:React.FC = () => {
                                 {
                                 categories.map((category,id) => <li><Link to='/shop' onClick={() => onclickTransit(id + 1)}>{category}</Link></li>)
                                 }
-
-                                {/* <li><Link to='/shop'>Пальто</Link></li>
-                                <li><Link to='/shop'>Свитшоты</Link></li>
-                                <li><Link to='/shop'>Кардиганы</Link></li>
-                                <li><Link to='/shop'>Толстовки</Link></li> */}
                             </ul>
                     </li>
     

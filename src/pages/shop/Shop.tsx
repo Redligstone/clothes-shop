@@ -85,12 +85,6 @@ const Shop: React.FC = () => {
             </main>
             <p className={s.showed}>{categoryId > 0 || currentPage > 1 ? `Показано: 3 из 12 товаров` : `Показано: 9 из 12 товаров`}</p>
           </section>
-    
-          {/* <div className={s.pagination}>
-            <span className={s.selected}>1</span>
-            <span>2</span>
-            <BsArrowRight/>
-          </div> */}
           <Pagination currentPage={currentPage} onChangePage={onChangePage}/>
         </div>
     </div>

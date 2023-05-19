@@ -2,8 +2,6 @@ import React from 'react'
 import s from './NewCollection.module.scss'
 import ProductItem from '../../components/ProductItem/ProductItem'
 import {Link} from 'react-router-dom'
-import { useSelector } from 'react-redux'
-import { productsSelector } from '../../redux/slices/products__slice'
 import axios from 'axios'
 
 

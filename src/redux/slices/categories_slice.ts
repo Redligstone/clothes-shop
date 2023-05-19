@@ -25,7 +25,6 @@ const categoriesSlice = createSlice({
   },
 });
 
-//просто пример селектора если нужно будет
 export const categoriesSelector = (state:RootState) => state.categories
 
 

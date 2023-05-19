@@ -1,7 +1,7 @@
 import React from "react";
 import s from './cartItem.module.scss'
 import {RxCross1} from 'react-icons/rx'
-import { useDispatch,useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { addProduct, minusItem, removeProduct } from "../../redux/slices/cart_slice";
 import {Link} from 'react-router-dom'
 
