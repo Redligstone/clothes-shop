@@ -16,9 +16,9 @@ You can try the demo at https://redligstone.github.io/clothes-shop/
 
 <table>
   <tr>
-    <td><img src="/ShowCase/images/MainPage.jpg" alt="main"></td>
-    <td><img src="/ShowCase/images/ShopPage.jpg" alt="shop page"></td>
-    <td><img src="/ShowCase/images/ItemCard.jpg" alt="item card"></td>
+    <td><img src="/showCase/images/MainPage.jpg" alt="main"></td>
+    <td><img src="/showCase/images/ShopPage.jpg" alt="shop page"></td>
+    <td><img src="/showCase/images/ItemCard.jpg" alt="item card"></td>
   </tr>
 </table>
 
@@ -27,17 +27,17 @@ Adding item:
 
 <!-- ![filters.gif](https://github.com/ttpavlova/cake-shop/blob/main/showcase/gif/filters.gif) -->
 
-![add-item.gif](https://github.com/ttpavlova/cake-shop/blob/master/ShowCase/gifs/add-item.gif)
+![add-item.gif](https://github.com/ttpavlova/cake-shop/blob/master/showCase/gifs/add-item.gif)
 
 Changing the amount of selected items on the cart page:
 
 <!-- ![choosing-items.gif](https://github.com/ttpavlova/cake-shop/blob/main/showcase/gif/choosing-items.gif)
  -->
- ![product-cart.gif](https://github.com/ttpavlova/cake-shop/blob/master/ShowCase/gifs/product-cart.gif)
+ ![product-cart.gif](https://github.com/ttpavlova/cake-shop/blob/master/showCase/gifs/product-cart.gif)
 
 Placing order:
 
-![place-order.gif](https://github.com/ttpavlova/cake-shop/blob/master/ShowCase/gifs/place-order.gif)
+![place-order.gif](https://github.com/ttpavlova/cake-shop/blob/master/showCase/gifs/place-order.gif)
 
 ## Build
 
