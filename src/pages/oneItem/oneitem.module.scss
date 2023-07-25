@@ -150,6 +150,7 @@
 
                 .add{
                     margin-top: 40px;
+                
                     display: flex;
                     gap: 5px;
                     span{
@@ -157,6 +158,7 @@
                         border: 2px solid rgb(211, 211, 211);
                     }
                     button{
+                        cursor: pointer;
                         padding: 0 35px;
                         border: none;
                         background: #6E9C9F;

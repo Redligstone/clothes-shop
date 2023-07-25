@@ -3,6 +3,7 @@
     gap: 10px;
     span{
         padding: 6px 10px;
+        cursor: pointer;
         border: solid 2px black;
         &.selected{
             background-color: black;
